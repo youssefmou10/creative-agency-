@@ -1,0 +1,51 @@
+/*start Media Qeury*/
+
+@media(min-width: 374px) and(max-width: 786px)
+{
+	/*start header */
+	header nav {
+		flex-direction: column;
+
+	}
+
+	header nav ul {
+		flex-direction: column;
+		align-items: center;
+		margin: 0;
+	}
+
+	header nav .logo {
+		margin: 20px 0;
+	}
+	header .content h1{
+		font-size: 24px;
+	}
+	header .content p {
+		width: 60%;
+		margin: 0 auto;
+	}
+	/*End Header*/
+
+	/*start main */
+		main #services{
+			height: auto;
+			margin: 25px auto;
+		}
+
+		main #services .service-parent
+		{
+
+				height: auto;
+		}
+		main #services .service-parent{
+			flex-direction: column;
+		}
+	/*End main */
+
+}
+
+
+
+
+
+/*End Media Qeury*/
