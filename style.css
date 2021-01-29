@@ -297,3 +297,62 @@ footer .footer-bottom p{
 	line-height: 100px;
 }
 /*End footer*/
+/*start Media Qeury*/
+@media  screen and (min-width: 320px) and(max-width: 768px ) {
+/*start header*/
+ header nav {
+ 	flex-direction: column;
+ }
+ header nav ul {
+ 	flex-direction: column;
+ 	align-items: center;
+ 	margin: 0;
+ }
+ header nav ul li {
+ 	padding: 10px 0;
+ }
+ header nav .logo{
+ 	margin: 20px 0;
+ }
+ header .content h1 {
+ 	font-size: 24px;
+ }
+ header .content p {
+ 	width: 60%;
+ 	margin: 0 auto;
+
+ }
+
+ /*End header */
+ /*start main */
+ 
+main #services{
+	height: inherit;
+}
+ main #services .service-parent{
+ 	flex-direction: column;
+ }
+
+ main #services .service-parent > div 
+ {
+ 	overflow: hidden;
+ 	margin-bottom: 20px;
+ }
+ main #contact-us{
+ 	height: auto;
+ }
+ main #contact-us .contact-parent{
+ 	flex-direction: column;
+ 	height: auto;
+ 	margin: 24px 0px;
+
+ }
+
+ 
+}
+
+
+
+
+
+/*End Media Qeury*/
