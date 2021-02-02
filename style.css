@@ -28,6 +28,7 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 
+
 }
 header a{
 	color: #fff;
@@ -257,18 +258,18 @@ main #partners .partenr-parent a{
 /*End main*/
 /*start footer */
 footer{
+	height: 400px;
 	width: 100%;
-	height: 700px;
 	background-color: #312d28;
 }
 
 footer .fotter-top
 {
-	height:400px;
+	height:300px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-left: 10px;
+
 
 }
 footer .fotter-top ul li
@@ -285,7 +286,7 @@ footer .fotter-top a {
 footer .fotter-top .social-media li
 {
 	display: inline;
-	margin-right: 15px;
+	margin-left: 5px;
 }
 footer .footer-bottom
 {
@@ -298,11 +299,14 @@ footer .footer-bottom p{
 }
 /*End footer*/
 /*start Media Qeury*/
-@media  screen and (min-width: 320px) and(max-width: 768px ) {
+@media (min-width: 320px) and (max-width: 768px ) {
 /*start header*/
+	header{
+		overflow: hidden;
+	}
  header nav {
  	flex-direction: column;
- }
+ 			}
  header nav ul {
  	flex-direction: column;
  	align-items: center;
@@ -327,7 +331,11 @@ footer .footer-bottom p{
  /*start main */
  
 main #services{
-	height: inherit;
+	height: auto;
+	margin: 25px 0;
+}
+main #services .service-parent{
+	height: auto;
 }
  main #services .service-parent{
  	flex-direction: column;
@@ -347,6 +355,51 @@ main #services{
  	margin: 24px 0px;
 
  }
+ main #contact-us p {
+ 	font-size: 16px;
+ 	text-align: center;
+ 	margin-bottom: 15px;
+ }
+ /*-----Start Plans -----*/
+ main #plans{
+ 	height: auto;
+ }
+main #plans .plan-parent{
+	height: auto;
+	flex-direction: column;
+}
+main #plans .plan-parent .plan{
+	margin: 24px 0;
+}
+
+  /*-----End Plans -----*/
+ /*-----Start Partenrs -----*/
+ 	main #partners{
+ 		height: auto;
+ 	}
+ 	main #partners .partenr-parent{
+ 		height: auto;
+ 		flex-direction: column;
+ 	}
+ 		main #partners .partenr-parent a{
+ 			margin: 24px 0;
+ 		}
+ /*-----End Partenrs -----*/
+/*-----Start Footer -----*/
+  footer {
+		height: auto;}
+	footer .fotter-top  {
+		height: auto;
+ 		flex-direction: column;
+		text-align: center;
+	}
+	footer .fotter-top ul 
+	{
+		margin: 24px 0px;
+
+	}
+/*-----End Footer -----*/
+
 
  
 }
