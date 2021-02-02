@@ -398,6 +398,13 @@ main #plans .plan-parent .plan{
 		margin: 24px 0px;
 
 	}
+	footer .footer-bottom{
+		height: auto;
+		text-align: center;
+	}
+	footer .footer-bottom p {
+		margin:  5px 0px;
+	}
 /*-----End Footer -----*/
 
 
